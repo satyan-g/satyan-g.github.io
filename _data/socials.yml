@@ -1,7 +1,7 @@
-# Social media links — update with your actual accounts
-# For privacy: only uncomment what you want publicly visible
-# cv_pdf: /assets/pdf/cv.pdf
-# email: your@email.com
+# Social media links — uncomment what you want visible
+# For privacy: keep commented what you don't want publicly accessible
+cv_pdf: /assets/pdf/resume.pdf
+# email: sgullapudi1@gmail.com
 # github_username: satyan-g
 # linkedin_username: your-linkedin
 rss_icon: true

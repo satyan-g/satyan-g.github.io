@@ -2,6 +2,14 @@
 
 This is a personal portfolio/blog site built with the [al-folio](https://github.com/alshedivat/al-folio) Jekyll theme.
 
+## Content Language & Privacy
+
+- **Tone**: Semi-formal throughout all portal content.
+- **No proprietary content on the portal**: No company-specific metrics (throughput, AUM, team sizes, client counts, infrastructure scale), no proprietary product/service names (B-PIPE, BPOD, //blp/* services, Tradeweb Marks, FTSE Russell IOSCO Close, etc.). Keep portal descriptions capability-focused — emphasize what was built and skills demonstrated, not internal details of any employer.
+- **PDF resume** (`assets/pdf/resume.pdf`): The authoritative, full-detail version with all specifics. It is `.gitignored` and must NEVER be committed to the public repo. Resume can be requested by email.
+- **`chatbase_context.md`**: Privacy-scrubbed context file uploaded to Chatbase for "Chat with Resume". Must stay in sync with resume updates but must contain NO company names, NO proprietary product names, NO company-specific metrics. Focus on: capabilities, career trajectory, skills, education, and how Satya works. Use generic descriptors (e.g., "major financial data provider", "buy-side asset manager", "electronic trading platform") instead of company names.
+- **PR scan**: `.github/workflows/proprietary-scan.yml` runs on every PR to main and blocks merges if proprietary content (metrics or product names) is detected in personal content files.
+
 ## Golden Rule
 
 **Only modify "Personal Content Files" listed below.** Never edit theme files (layouts, includes, sass, plugins, scripts) unless explicitly asked. The al-folio upstream theme handles everything else.

@@ -7,22 +7,29 @@ subtitle:
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info:
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false
+social: true
 
 announcements:
-  enabled: false # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: false
+  scrollable: true
+  limit: 5
 
 latest_posts:
   enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  scrollable: true
+  limit: 3
 ---
 
-<!-- TODO: Write your biography here -->
-Software engineering professional with experience in financial systems.
+An early fascination with electronic circuits, motors, and sensors led to a B.Tech in Electronics & Communications (JNTU). On the engineering side, working with Nortel and Lucent on everything from RTOS to messaging protocols was a natural bridge into real-time market data systems at Bloomberg. On the academic side, the foundations in finite difference calculus, time-series analysis, and DSP connected directly to quantitative finance. The financial domain knowledge gained from years in a technology role at Bloomberg made an MS in Financial Engineering (Baruch, CUNY) a natural next step, tying both threads together. That is how I ended up at the intersection of data, analytics, and trading.
+
+Over the past twenty years, I've built software for trading, portfolio construction, quantitative research, and backtesting pipelines — real-time feeds, pricing systems — primarily in C++ and Python, at Bloomberg, Guggenheim, and Tradeweb. My background is quantitative, but where I've consistently added the most value is on the technology side: helping traders, quants, and portfolio managers move their ideas from experiment to production. Being conversant in both domains — sitting with a quant to discuss signal decay, then designing the infrastructure to operationalize it — is the part I find most engaging. Most of the work comes down to tradeoffs: build vs. buy, where to allocate the latency budget, and when good enough is the right answer given timelines and constraints.
+
+Outside of the day job, my current interests span several areas. One is AI for edtech — using AI to transform the learning experience and develop strong muscle memory. A related side-track, still in its early stages, is exploring what humans can learn about their own learning and reasoning processes from how models are trained and how they operate. Another is building AI-centric tooling for financial services, covering workflows from analyst to quantitative researcher to portfolio manager. In practice, that includes MCP connectors to brokers, personal trading assistants that integrate with a portfolio, market data, social feeds, and newsletters — assembled one layer at a time: distillation, signal extraction, risk management, hedging, systematizing. I also spend time studying reasoning models — how they operate, where they fail, and what happens when they execute code in sandboxes. Claude Code has become my primary working environment — I use it for nearly everything: low-latency parsing code, picking up a new language, building bitstreams for FPGAs, designing circuits, putting together websites, architecting solutions, Terraforming AWS infrastructure, security hardening. It has fundamentally changed how I work.
+
+The electronics side never fully went away. I still pick up circuits and FPGAs when time allows. Recently completed Purdue's Applied Generative AI program to add some structure around the LLM space.
+
+This site is where I document what I'm working on and what I'm learning along the way.

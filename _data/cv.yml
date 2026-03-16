@@ -1,11 +1,10 @@
 cv:
-  # TODO: Replace with your actual CV data
-  name: Satyan G
-  label: Software Engineer
+  name: Satyanandam Gullapudi
+  label: Head of Technology
   email:
   location:
   image: ""
-  summary: Software Engineering Professional
+  summary: Hands-on technology leader with 20+ years spanning market data infrastructure and quantitative finance — uniquely positioned at the intersection of both. Built foundational market data systems at Bloomberg as a data provider, then crossed to the buy-side at Guggenheim to build front-office quant research and trading infrastructure as a data consumer. Since then consistently hired to build or transform technology at the intersection of systematic trading, market data, and quant research.
 
   social_networks:
     - network: GitHub
@@ -13,27 +12,164 @@ cv:
 
   sections:
     Education:
-      - institution: Your University
-        location: City, Country
-        area: Your Field
-        studyType: Degree
-        start_date: 2000
-        end_date: 2004
-        highlights:
-          - "TODO: Add details"
+      - institution: Baruch College, CUNY
+        location: New York, NY
+        area: Financial Engineering
+        studyType: MS
+        start_date:
+        end_date:
+
+      - institution: Jawaharlal Nehru Technological University
+        location: India
+        area: Electronics and Communications Engineering
+        studyType: B.Tech
+        start_date:
+        end_date:
+
+      - institution: Purdue University | SimpliLearn
+        location:
+        area: Applied Generative AI Specialization
+        studyType: Certificate
+        start_date:
+        end_date:
 
     Experience:
-      - company: Your Company
-        position: Your Role
-        location: City, Country
-        start_date: 2020
+      - company: Blockhouse Capital
+        position: Head of Technology
+        location:
+        start_date: 2025-08
         end_date: present
-        summary: "TODO: Describe your role"
+        summary: Architecting a cloud-native systematic trading platform for real-time market data, research/backtesting, and distributed execution.
         highlights:
-          - "TODO: Add highlights"
+          - "Joined a firm operating in POC mode with no prior technical leadership — refactored the junior engineering team, established engineering standards, code and architecture review processes, and CI/CD pipelines, and took the platform, crypto strategies, and infrastructure to production-grade operations for the first time."
+          - "Served as lead architect and seed implementer — designed the cloud-native systematic trading platform from scratch and delivered foundational implementations across real-time market data ingestion/normalization, time-series datastore, research/backtesting runtime, and distributed execution framework for junior engineers to build upon."
+          - "Primary bridge between traders, quants, and engineering — translating signals, alerts, and execution workflows into durable architecture while maintaining hands-on delivery in Python and C++."
+
+      - company: Tradeweb Markets
+        position: Director, Head of Market Data Engineering
+        location:
+        start_date: 2022-08
+        end_date: 2024-12
+        summary: Led architecture and development of high-throughput real-time and EOD pricing systems powering institutional trading workflows.
+        highlights:
+          - "Owned architecture and scaling of high-throughput real-time and EOD pricing systems — Composite, AI Price, EBBO, Enriched TRACE, DDC, and EOD products (Tradeweb Marks, FTSE Russell IOSCO Close) — supporting 100s of institutional clients consuming 100K+ messages/sec across Rates and Credit."
+          - "Identified and resolved a range of systemic latency and network issues — including TCP Nagle misconfiguration, backpressure-triggered conflation, PGM multicast NAK storms, and flow control deficiencies — through purpose-built shadow instrumentation infrastructure that avoided any disruption to production clients."
+          - "Led delivery of a board-level yield broker merger initiative — reimplemented both a new FIX-based real-time market data distribution feed and the acquired firm's EOD pricing products, managed client onboarding and transition within committed timelines, coordinating across upstream feed and CLOB teams to ensure seamless continuity."
+          - "Drove developer experience improvements as a leadership priority — delivering Python wrappers for C++ analytics APIs, a Market Data Client library for streamlined data access, and custom HAProxy routing for intelligent load distribution across the publisher infrastructure."
+          - "Led strategic redesign from a legacy proprietary protocol toward a modern FlatBuffers/C++ code-generation architecture; identified multi-tier pricing rules engine modeling as the key architectural blocker."
+          - "Delivered a tick history product with established SLAs — built on OneTick, Snowflake, S3, and Parquet — alongside ETL pipelines to AWS using Prefect and Kubernetes; designed REST-based Fixed Income calculator services (price, yield, spread, duration, convexity, accrued interest)."
+          - "Owned strategy, hiring/mentorship, budgeting, capacity planning, and DR readiness; built internal visualization tools (Plotly, Dash, Streamlit). Stayed hands-on in C++ and Python throughout."
+
+      - company: Monoceros Analytics
+        position: Head of Technology
+        location:
+        start_date: 2021-05
+        end_date: 2022-07
+        summary: "Driving 0→1 architecture for a systematic trading fund across US and Cayman."
+        highlights:
+          - "Built core research, data, and execution infrastructure from scratch for a systematic trading fund across US and Cayman — data ingestion, signal research, trading alerting, and monitoring portals on AWS (Kafka, Redis, ECS, Batch, SageMaker)."
+          - "Defined end-to-end technology roadmap; coordinated closely with PMs, traders, and quants to align infrastructure with alpha research and risk operations."
+          - "Oversaw vendor onboarding for OEMs, OTC brokers, exchange connectivity, and custody across US equities and digital assets. Hired and managed initial quant/dev teams."
+
+      - company: Stealth Startup
+        position: Technology Consultant
+        location:
+        start_date: 2020-01
+        end_date: 2021-04
+        summary: Collaborated with a portfolio manager on an early-stage RIA technology build for a large public pension fund.
+        highlights:
+          - Built proprietary equity options research tools via Interactive Brokers API automation.
+
+      - company: Guggenheim Partners
+        position: Managing Director, Data & Analytics, QIS
+        location:
+        start_date: 2015-08
+        end_date: 2019-12
+        summary: Led ground-up development of front-office infrastructure supporting ML-driven quant research and trading across multi-billion-dollar fixed income portfolios.
+        highlights:
+          - "Career inflection point — crossed from data provider to buy-side data consumer, building front-office research and production infrastructure supporting ML-driven quant strategies across multi-billion-dollar fixed income portfolios — spanning portfolio construction, feature construction, backtesting environments, and live signal delivery."
+          - "Originated a lead-lag signal derived from FINRA TRACE fill-efficiency metrics, identifying predictive capacity on credit ETF direction — developed in partnership with PM and deployed into production."
+          - "Owned end-to-end infrastructure operationalizing quant alpha signals — point-in-time feature pipelines, model serving, and a validation framework comparing live paper trading against historical backtests. Built research data infrastructure directly supporting Marcos Lopez de Prado's quantitative research program as his Head of Technology."
+          - "Built real-time data pipelines using stateful, non-time-based sampling from market and trade data; developed feed handlers and snapshot cache services aggregating indicative, executable, model, and STP quotes from counterparties and vendors."
+          - "Designed applications for P&L, risk dashboards, TCA metrics, market surveillance, and pricing feeds. Built custom fixed income index and monitoring tools — including spread compression/stretch decomposition by sector, credit, and duration factors (akin to {FICM<GO>}) — and backtesting P&L attribution frameworks broken down by sector, credit, duration, hedging, and coupon. Leveraged NERSC/LBNL HPC clusters (SLURM workload manager, Lustre parallel filesystem) for large-scale model training and backtesting parameter sweeps."
+          - "Recruited and managed cross-functional team of full-stack and quant developers supporting $13B+ AUM growth; led vendor evaluations and contract negotiations across the front-office stack."
+
+      - company: Bloomberg L.P.
+        position: Development Manager, B-PIPE / R&D Enterprise Solutions
+        location: New York, NY
+        start_date: 2005-08
+        end_date: 2015-07
+        summary: Hands-on manager of award-winning low-latency C++ market data feed.
+        highlights:
+          - "Hands-on manager of award-winning low-latency C++ market data feed handling 3M+ ticks/sec at peak, 50B+ ticks/day, across ~4,000 contributors and exchanges with 24/7 uptime."
+          - "Architected massively parallel tick processing producer farm — customizable components and data structures for normalizing ticks, maintaining last-value cache and market depth books. Designed custom compression and compaction algorithms balancing CPU, latency, and bandwidth utilization SLAs subject to network, datacenter, and client constraints."
+          - "Executed multi-year strategic plan evolving infrastructure to a 500+ server farm (10-fold increase); oversaw adoption of PGM multicast, UDP and TCP/IP protocols; architected distributed ticker plants with co-location, seamless connection hopping, failover, and recovery from data loss."
+          - "Designed and implemented large parts of B-PIPE — Bloomberg's flagship enterprise market data platform — including core components of BPIPE and BPOD services: //blp/mktdata, //blp/mktdepth, //blp/mktlist, and //blp/srcref. Collaborated across Feeds, TickerPlant, Bloomberg API, News, News Analytics, Yellow Keys, and Software & Systems Engineering."
+          - "Supported cross-functional R&D initiatives covering scalability, DR, modernization, business planning, resource optimization, and adoption of engineering best practices."
+          - "Hired, mentored, and managed a global team — developers, DevOps, feed specialists, QA analysts, and client implementation specialists; led hiring initiatives and 360 performance reviews."
+
+    Early Career:
+      - company: Lucent Technologies
+        position: Senior Software Engineer
+        location:
+        start_date:
+        end_date:
+
+      - company: Infosys-Nortel OSDC
+        position: Architect & Team Lead
+        location:
+        start_date:
+        end_date:
+
+    Independent Projects:
+      - title: Quantus Suite
+        description: "Developing a private suite of AI-first quantitative finance tools spanning broker connectivity (MCP-based), LLM-powered personal trading and research assistants, remote agent infrastructure, and an institutional-grade research workbench with sandboxed data access, entitlement control, and data discovery. Exploring enterprise applicability — not yet published."
 
     Skills:
-      - name: Software Engineering
+      - name: Languages & Frameworks
         level: Expert
         icon: fa-solid fa-code
-        keywords: "TODO: Add your skills"
+        keywords: "C++, Python, Pandas, NumPy, Rust (exploring)"
+
+      - name: Domain
+        level: Expert
+        icon: fa-solid fa-chart-line
+        keywords: "Systematic Trading, Backtesting/Simulation, Fixed Income, Digital Currencies, Capital Markets, Quantitative Finance"
+
+      - name: Systems
+        level: Expert
+        icon: fa-solid fa-server
+        keywords: "Realtime Streaming, Low Latency, Distributed Systems, Concurrency, Microservices, CI/CD"
+
+      - name: Data & Infrastructure
+        level: Expert
+        icon: fa-solid fa-database
+        keywords: "Bloomberg, Tradeweb, Factset, Refinitiv, OneTick, Markit, S&P Global, Snowflake, Kafka, Redis, Kubernetes"
+
+      - name: AI/ML
+        level: Advanced
+        icon: fa-solid fa-brain
+        keywords: "GenAI/LLM, RAG, Agentic Workflows, Prompt Engineering, PEFT/LoRA, OpenAI/Claude/Llama"
+
+      - name: Cloud & DevOps
+        level: Expert
+        icon: fa-solid fa-cloud
+        keywords: "AWS (EC2, S3, ECS, Batch, SageMaker), Terraform, CI/CD, Prefect, Parquet"
+
+    Areas of Expertise:
+      - "Software Development"
+      - "Capital Markets"
+      - "Quantitative Finance"
+      - "Systematic Trading"
+      - "Data Engineering"
+      - "High Performance Computing"
+      - "Low Latency"
+      - "Realtime Streaming"
+      - "Market Data"
+      - "Fixed Income Analytics"
+      - "Generative AI"
+      - "0-1 Scaling"
+      - "Hands-on Builder"
+      - "Business Planning"
+      - "Crisis Management"
+      - "Risk Mitigation"

@@ -13,3 +13,6 @@ assets/rendercv/rendercv_output/*.typ
 Gemfile.lock
 node_modules/
 vendor
+
+# Private resume PDF — not for public repo
+assets/pdf/resume.pdf
