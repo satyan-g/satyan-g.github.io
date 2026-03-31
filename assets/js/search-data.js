@@ -65,7 +65,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{
+            },{id: "post-ai-for-the-manager-running-the-team",
+        
+          title: "AI for the Manager Running the Team",
+        
+        description: "Beyond coding: how AI and MCP workflows move the needle across sprint planning, stakeholder reporting, architecture reviews, and self-documentation.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/ai-for-engineering-managers/";
+          
+        },
+      },{
         id: 'social-cv',
         title: 'CV',
         section: 'Socials',
